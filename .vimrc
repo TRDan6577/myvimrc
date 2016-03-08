@@ -23,10 +23,7 @@ Plugin 'VundleVim/Vundle.vim'
 " A directory tree in vim! Open up files and whatnot
 Plugin 'scrooloose/nerdtree'
 
-" Autocomplete plugin (make sure to get C-family semantic inspection by going
-" to ~/.vim/bundle/YouCompleteMe and running install.py with the
-" --clang-completer argument) make sure you have cmake, python-dev, and
-"  python3-dev installed as well (sudo apt-get install [those things here])
+" Autocomplete plugin
 Plugin 'Valloric/YouCompleteMe'
 
 " Cool interface at the bottom
@@ -54,8 +51,6 @@ let g:airline_theme="powerlineish"
 " directory and never from anywhere else)
 let g:ycm_extra_conf_globlist = ['~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/*', '!/*']
 " Set the path to the .ycm_extra_conf.py file for semantic completion
-" *Side note. In the conf.py file, set the gcc flags, remove the specified
-" part, and change the arg after the '-x' flag to 'c' rather than 'c++'
 let g:ycm_global_ycm_extra_conf = expand('$HOME/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py')
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
