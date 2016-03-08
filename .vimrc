@@ -52,6 +52,8 @@ let g:airline_theme="powerlineish"
 let g:ycm_extra_conf_globlist = ['~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/*', '!/*']
 " Set the path to the .ycm_extra_conf.py file for semantic completion
 let g:ycm_global_ycm_extra_conf = expand('$HOME/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py')
+" Get rid of that pesky preview window that pops up when doing '->'
+set completeopt=menuone
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "========================== SYNTAX SETTINGS ============================"
