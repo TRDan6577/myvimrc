@@ -9,6 +9,9 @@ set t_Co=256
 " Turn on the mouse
 set mouse=a
 
+" We're IMPATIENT!!! Set update time to .5 seconds
+set updatetime=500
+
 " Configure setting for Vundle - the package manager for vim
 set nocompatible
 filetype off
