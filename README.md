@@ -44,11 +44,21 @@ Install the essentials needed for [YouCompleteMe](https://github.com/Valloric/Yo
 
 > `sudo apt-get install build-essential cmake python-dev python3-dev clang`
 
+Update the third party code in YCM
+
+> `cd .vim/bundle/YouCompleteMe/`
+
+> `git submodule update --init --recursive`
+
+Install YCM
+
+> `./install.py --clang-completer`
+
 Set up the ycm_extra_conf.py file by following the instructions within the file.
 Basically just change the flags array to the flags you use when compiling a
 C-family program and delete the part of the code it tells you to
 
-> `cd .vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm`
+> `cd third_party/ycmd/cpp/ycm`
 
 You should be all set! Happy coding!
 
