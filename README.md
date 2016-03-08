@@ -42,7 +42,7 @@ Close that once it finishes installing
 
 Install the essentials needed for [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
 
-> `sudo apt-get install build-essential cmake python-dev python3-dev`
+> `sudo apt-get install build-essential cmake python-dev python3-dev clang`
 
 Set up the ycm_extra_conf.py file by following the instructions within the file.
 Basically just change the flags array to the flags you use when compiling a
