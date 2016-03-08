@@ -29,6 +29,9 @@ Plugin 'Valloric/YouCompleteMe'
 " Cool interface at the bottom
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+
+" Git changes plugin
+Plugin 'airblade/vim-gitgutter'
 call vundle#end()
 " Done with Vundle config
 
