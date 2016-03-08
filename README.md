@@ -61,6 +61,3 @@ C-family program and delete the part of the code it tells you to
 > `cd third_party/ycmd/cpp/ycm`
 
 You should be all set! Happy coding!
-
-## TODO:
-*Known bug: '->' causes a new buffer to open
