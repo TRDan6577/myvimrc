@@ -62,4 +62,6 @@ C-family program and delete the part of the code it tells you to
 
 For Python sytax and style checking, install [flake8](https://pypi.python.org/pypi/flake8/)
 
+> `pip install flake8`
+
 You should be all set! Happy coding!
