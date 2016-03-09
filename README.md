@@ -64,4 +64,12 @@ For Python sytax and style checking, install [flake8](https://pypi.python.org/py
 
 > `pip install flake8`
 
+If you attempt to use flake8 and get an error AND YOU'VE ALREADY INSTALLED FLAKE8 USING THE ABOVE COMMAND, then (on linux machines) go to
+
+> `cd ~/.vim/bundle/vim-flake8/autoload`
+
+Change line 73 to
+
+> `call s:DeclareOption('flake8_cmd', '', '"~/.local/bin/flake8"')`
+
 You should be all set! Happy coding!
