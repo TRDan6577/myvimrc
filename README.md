@@ -60,4 +60,6 @@ C-family program and delete the part of the code it tells you to
 
 > `cd third_party/ycmd/cpp/ycm`
 
+For Python sytax and style checking, install [flake8](https://pypi.python.org/pypi/flake8/)
+
 You should be all set! Happy coding!
