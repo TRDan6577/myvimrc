@@ -35,6 +35,10 @@ Plugin 'vim-airline/vim-airline-themes'
 
 " Git changes plugin
 Plugin 'airblade/vim-gitgutter'
+
+" Stylistic and synatx checker for python. Press <F7> in an open .py file
+" to run it
+Plugin 'nvie/vim-flake8'
 call vundle#end()
 " Done with Vundle config
 
