@@ -20,6 +20,8 @@ Install [vundle.vim](https://github.com/VundleVim/Vundle.vim) in this directory 
 
 > `cd ~/.vim/bundle/`
 
+(Note that if .vim/ and or .vim/bundle/ don't exist, create them)
+
 > `git clone https://github.com/VundleVim/Vundle.vim.git`
 
 Download my .vimrc in your home directory
