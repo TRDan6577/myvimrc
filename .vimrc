@@ -23,6 +23,9 @@ call vundle#begin()
 " Have Vundle manage itself
 Plugin 'VundleVim/Vundle.vim'
 
+" One colorscheme (package) to rule them all
+Plugin 'flazz/vim-colorschemes' " Make vim pretty!!
+
 " A directory tree in vim! Open up files and whatnot
 Plugin 'scrooloose/nerdtree'
 
