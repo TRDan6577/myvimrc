@@ -54,11 +54,11 @@ Install YCM
 
 > `./install.py --clang-completer`
 
-Set up the ycm_extra_conf.py file by following the instructions within the file.
+Set up the .ycm_extra_conf.py file by following the instructions within the file.
 Basically just change the flags array to the flags you use when compiling a
 C-family program and delete the part of the code it tells you to
 
-> `cd third_party/ycmd/cpp/ycm`
+> `cd third_party/ycmd/cpp/ycm/`
 
 For Python sytax and style checking, install [flake8](https://pypi.python.org/pypi/flake8/)
 
