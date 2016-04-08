@@ -46,6 +46,21 @@ Install the essentials needed for [YouCompleteMe](https://github.com/Valloric/Yo
 
 > `sudo apt-get install build-essential cmake python-dev python3-dev clang`
 
+*** IF THE ABOVE GIVES YOU AN ERROR, GO TO YOUR sources.list FILE! (on debian, /etc/apt/sources.list)
+and add the following lines:
+
+`deb http://http.debian.net/debian wheezy main`
+
+`deb http://http.debian.net/debian wheezy-updates main`
+
+Then do:
+
+`sudo apt-get update`
+
+and try the original command again
+
+*** WE NOW RETURN TO OUR REGULARLY SCHEDULE INSTALL
+
 Update the third party code in YCM
 
 > `cd .vim/bundle/YouCompleteMe/`
