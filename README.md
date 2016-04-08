@@ -32,7 +32,7 @@ Download my .vimrc in your home directory
 
 Take the .vimrc out of the folder and delete the folder
 
-> `mv myvimrc/.vimrc .vimrc`
+> `mv myvimrc/.vimrc ~/.vimrc`
 
 > `rm -r myvimrc/`
 
