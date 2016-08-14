@@ -10,7 +10,7 @@ Delete everything in your .vim/bundle/ directory and your .vimrc
 
 > `cd ~/.vim/bundle/`
 
-> `rm -r *`
+> `rm -rf *`
 
 From here, follow along with the New .vimrc instructions
 
@@ -18,11 +18,11 @@ From here, follow along with the New .vimrc instructions
 
 Install [vundle.vim](https://github.com/VundleVim/Vundle.vim) in this directory (package manager)
 
-> `cd ~/.vim/bundle/`
+> `~/.vim/bundle/`
 
-(Note that if .vim/ and or .vim/bundle/ don't exist, create them)
+(Note that if .vim/ and or .vim/bundle/ don't exist, you'll need to create them)
 
-> `git clone https://github.com/VundleVim/Vundle.vim.git`
+> `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
 Download my .vimrc in your home directory
 
@@ -34,7 +34,7 @@ Take the .vimrc out of the folder and delete the folder
 
 > `mv myvimrc/.vimrc ~/.vimrc`
 
-> `rm -r myvimrc/`
+> `rm -rf myvimrc/`
 
 Install the bundles mentioned in the .vimrc (be patient!!)
 
