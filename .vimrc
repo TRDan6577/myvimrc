@@ -112,8 +112,8 @@ set number
 set relativenumber
 
 " Customize appearance of cursor crosshairs
-hi CursorLine cterm=None ctermbg=8 ctermfg=None guifg=None
-hi CursorColumn cterm=None ctermbg=8 ctermfg=None guifg=None
+hi CursorLine cterm=NONE ctermbg=8 ctermfg=NONE guifg=NONE
+hi CursorColumn cterm=NONE ctermbg=8 ctermfg=NONE guifg=NONE
 " Highlight current horizontal and verticle lines
 set cursorline
 set cursorcolumn
