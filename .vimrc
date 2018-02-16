@@ -95,7 +95,7 @@ syntax on
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Turn on theme
-colorscheme nour
+silent! colorscheme nour
 
 " Highlight search term
 set hlsearch
